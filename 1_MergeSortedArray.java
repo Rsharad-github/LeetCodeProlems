@@ -1,5 +1,5 @@
 import java.util.*;
-class MergeSortedArray {
+class 1_MergeSortedArray {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
        int[] num = new int[m+n];
        int i=0,j=0,k=0;
@@ -58,7 +58,7 @@ class MergeSortedArray {
 
 
     public static void main(String[] args) {
-      MergeSortedArray msa = new MergeSortedArray();
+      MergeSortedArray msa = new 1_MergeSortedArray();
         int[] nums1 = {1,2,3,0,0,0};
         int m = 3;
         int[] nums2 = {2,5,6};
