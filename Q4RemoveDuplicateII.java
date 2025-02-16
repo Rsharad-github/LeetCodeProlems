@@ -1,4 +1,4 @@
-class Solution {
+class  Q4RemoveDuplicateII {
     public int removeDuplicates(int[] nums) {
         int i = 0;
         for (int num : nums) {

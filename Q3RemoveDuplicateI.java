@@ -1,4 +1,4 @@
-class Solution {
+class Q3RemoveDuplicateI {
     public int removeDuplicates(int[] nums) {
         int i =0,j=1;
         while(j<nums.length){
