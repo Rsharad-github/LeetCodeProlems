@@ -1,3 +1,4 @@
+import java.util.*;
 class HIndex {
     public int hIndex(int[] citations) {
         Arrays.sort(citations);
